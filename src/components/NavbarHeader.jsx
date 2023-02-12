@@ -114,6 +114,7 @@ const NavbarHeader = ({
                 <img
                   src="https://libreriavirtual.bnp.gob.pe/assets/image/portafolio/logos_bnp.png"
                   alt="data"
+                  id="logo"
                 />
               </a>
               <a href="#/">
@@ -121,6 +122,7 @@ const NavbarHeader = ({
                   src="https://libreriavirtual.bnp.gob.pe/assets/image/portafolio/Libreria-virtual-Logo.png"
                   alt="data"
                   style={{ height: "60px" }}
+                  id="logo"
                 />
               </a>
             </div>
@@ -132,6 +134,7 @@ const NavbarHeader = ({
                 alignItems: "center",
                 marginLeft: "520px",
               }}
+              id="navbarCompra"
             >
               <div
                 onClick={() => {

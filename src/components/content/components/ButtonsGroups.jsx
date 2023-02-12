@@ -70,7 +70,7 @@ const Paginator = ({
         ) : null}
       </div>
 
-      <Pagination size="sm" style={{ marginLeft: "280px" }}>
+      <Pagination size="sm" style={{ marginLeft: "20%" }}>
         {items}
       </Pagination>
 

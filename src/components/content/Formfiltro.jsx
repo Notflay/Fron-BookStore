@@ -112,7 +112,11 @@ const Formfiltro = ({
           : null}
       </p>{" "}
       <Form style={{ padding: "10px" }} onSubmit={searchF}>
-        <Form.Group className="mb-3" controlId="formBasicText">
+        <Form.Group
+          className="mb-3"
+          controlId="formBasicText"
+          style={{ width: "100%" }}
+        >
           <Form.Label onClick={() => changeActive(false)}>Título</Form.Label>
           <Form.Control
             type="text"
@@ -133,7 +137,11 @@ const Formfiltro = ({
             className="tituloForm"
           />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Group
+          className="mb-3"
+          controlId="formBasicPassword"
+          style={{ width: "100%" }}
+        >
           <Form.Label onClick={() => changeActive(false)}>Author</Form.Label>
           <Form.Control
             type="text"
@@ -181,7 +189,11 @@ const Formfiltro = ({
           ) : null}
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formbasicPrecio">
+        <Form.Group
+          className="mb-3"
+          controlId="formbasicPrecio"
+          style={{ width: "100%" }}
+        >
           <Form.Label onClick={() => changeActive(false)}>Precio</Form.Label>
           <div>
             <select
@@ -245,7 +257,11 @@ const Formfiltro = ({
           </div>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Group
+          className="mb-3"
+          controlId="formBasicPassword"
+          style={{ width: "100%" }}
+        >
           <Form.Label onClick={() => changeActive(false)}>
             Selecciona por rating
           </Form.Label>
@@ -293,7 +309,11 @@ const Formfiltro = ({
           </div>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formbasicAño">
+        <Form.Group
+          className="mb-3"
+          controlId="formbasicAño"
+          style={{ width: "100%" }}
+        >
           <Form.Label onClick={() => changeActive(false)}>Año</Form.Label>
           <div>
             <select
@@ -489,7 +509,7 @@ const Formfiltro = ({
               borderRadius: "0px",
               boxShadow:
                 "0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12)",
-              width: "259px",
+              width: "100%",
               color: "white",
             }}
           >

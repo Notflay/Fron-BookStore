@@ -270,6 +270,7 @@ const Content = ({ changeActiveNav, changeShutInit }) => {
     <div onClick={changeActiveNav}>
       <img
         src="https://www.top10books.cl/media/wysiwyg/Top10_pedidos_dic.jpg"
+        id="portada-img"
         alt="libreria"
         style={{ marginTop: "-16px" }}
         onClick={changeShutInit}
@@ -278,6 +279,7 @@ const Content = ({ changeActiveNav, changeShutInit }) => {
         <Row>
           <Col
             md={{ span: 5, offset: 1 }}
+            id="col-filt"
             style={{ width: "21.6%", marginTop: "87px" }}
           >
             {filtro()}
@@ -285,9 +287,10 @@ const Content = ({ changeActiveNav, changeShutInit }) => {
           <Col
             md={{ span: 5, offset: 1 }}
             style={{
-              width: "900px",
+              width: "69%",
               marginLeft: "0.66%",
             }}
+            id="col-cata"
             onClick={() => changeActive(false)}
           >
             {" "}
