@@ -155,6 +155,7 @@ const NavbarHeader = ({
                 <AccountCircleIcon
                   style={{
                     color: "orange",
+                    cursor: "pointer",
                   }}
                   onClick={changeActiveNav}
                   onMouseDown={() => {
@@ -342,7 +343,10 @@ const NavbarHeader = ({
                 <span>Ingrese</span>
               </div>
 
-              <div style={{ marginLeft: "25px" }} onClick={changeShutInit}>
+              <div
+                style={{ marginLeft: "25px", cursor: "pointer" }}
+                onClick={changeShutInit}
+              >
                 <ShoppingCartIcon
                   style={{ color: "orange" }}
                   onClick={() => {
